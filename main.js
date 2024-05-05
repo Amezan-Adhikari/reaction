@@ -43,9 +43,9 @@ function showmodal(){
     div.classList.add("fixed","top-0", "h-screen", "w-screen", "flex", "items-center", "justify-center", "bg-gray-400", "bg-opacity-50");
 
     div.innerHTML = `
-    <div class="bg-gray-100 p-10 flex flex-col items-center gap-5 rounded-lg shadow-lg">
-    <h1 class="text-3xl">Your Reaction time was : </h1>
-    <p class="text-xl">${document.getElementById("time").innerText}</p>
+    <div class="bg-gray-100 mx-4 p-10 flex flex-col items-center gap-5 rounded-lg shadow-lg">
+    <h1 class="text-xl">Your Reaction time was : </h1>
+    <p class="text-3xl">${document.getElementById("time").innerText}</p>
 
     <div>
     <button class="bg-green-400 p-3 text-white rounded-lg shadow-md transform hover:bg-green-500" onclick="tryagain()">Try Again</button>

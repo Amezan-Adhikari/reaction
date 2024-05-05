@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test your reaction</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="fixed flex items-center justify-center top-10 right-10 h-20 w-40 bg-blue-400 shadow-lg rounded-l-full">
+        <h1  id="time" class="text-2xl text-white">0.000</h1>
+    </div>
+
+    <div class="flex items-center justify-center h-screen w-full">
+        <div class="bg-blue-100 p-10 flex flex-col items-center gap-5 rounded-lg">
+            <h1 class="text-center text-3xl">Check your reaction time</h1>
+            <p>click when the color changes</p>
+            <div class="flex gap-4">
+                <div class="h-20 w-20 rounded-full bg-red-500 lights"></div>
+                <div class="h-20 w-20 rounded-full bg-red-500 lights"></div>
+                <div class="h-20 w-20 rounded-full bg-red-500 lights"></div>
+            </div>
+            <div class="h-48 w-full flex cursor-pointer items-center justify-center bg-white rounded-lg border border-black border-dotted" id="clickArea">
+                <p class="text-gray-500 ">click here..</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
